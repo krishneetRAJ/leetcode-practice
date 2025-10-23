@@ -27,11 +27,11 @@ int main(){
 
     Solution solution2;
     vector<int> nums2 = {3, 2, 4};
-    vector<int> result2 = solution.twoSum(nums2, 6);
+    vector<int> result2 = solution2.twoSum(nums2, 6);
     cout << "For the input {3, 2, 4} with target 6, the output is: [" << result2[0] << ", " << result2[1] << "]" << endl;
 
     Solution solution3;
     vector<int> nums3 = {3, 3};
-    vector<int> result3 = solution.twoSum(nums3, 6);
+    vector<int> result3 = solution3.twoSum(nums3, 6);
     cout << "For the input {3, 3} with target 6, the output is: [" << result3[0] << ", " << result3[1] << "]" << endl;
 }

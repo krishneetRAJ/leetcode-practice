@@ -85,4 +85,5 @@ int main(){
     cout << boolalpha;
     bool result2 = solution.isValidSudoku(board2);
     cout << "For the second board, the Sudoku board output is " << result2 << "." << endl;
+    return 0;
 }

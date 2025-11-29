@@ -73,5 +73,5 @@ int main() {
         {'0','0','0','1','1'}
     };
     cout << "Number of islands: " << solution2.numIslands(grid2) << endl;
-
+    return 0;
 }

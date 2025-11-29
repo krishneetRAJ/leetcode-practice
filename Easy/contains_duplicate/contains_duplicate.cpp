@@ -32,4 +32,5 @@ int main(){
     vector<int> nums3 = {1, 1, 1, 3, 3, 4, 3, 2, 4, 2};
     bool result3 = solution3.containsDuplicate(nums3);
     cout << "For the input [1, 1, 1, 3, 3, 4, 3, 2, 4, 2], the output is: " << result3 << endl;
+    return 0;
 }

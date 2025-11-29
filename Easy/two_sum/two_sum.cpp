@@ -34,4 +34,5 @@ int main(){
    vector<int> nums3 = {3, 3};
    vector<int> result3 = solution3.twoSum(nums3, 6);
    cout << "For the input {3, 3} with target 6, the output is: [" << result3[0] << ", " << result3[1] << "]" << endl;
+   return 0;
 }

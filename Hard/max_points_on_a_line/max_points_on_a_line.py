@@ -23,6 +23,7 @@ def maxPoints(self, points: List[List[int]]) -> int:
     return max_points
 
 if __name__ == "__main__":
+    print("Testing maxPoints function:")
     points = [[1,1],[2,2],[3,3]]
     print("For the input points =", points, ", the maximum number of points on a line is:", maxPoints(None, points))  # Expected output: 3
 

@@ -14,6 +14,7 @@ def longest_common_subsequence(text1: str, text2: str) -> int:
         
     return lcs_recursive(m, n)
 
+# Example usage: 
 if __name__ == "__main__":
     print("Testing longest_common_subsequence function:")
     print("For the input text1 = 'abcde', text2 = 'ace', the output is:", longest_common_subsequence("abcde", "ace")) #Output: 3

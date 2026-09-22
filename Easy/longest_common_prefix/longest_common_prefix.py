@@ -1,0 +1,18 @@
+from typing import List
+
+def longestCommonPrefix(strs: List[str]) -> str:
+    if not strs:
+        return ""
+
+    prefix = strs[0]
+    for s in strs[1:]:
+        while not s.startswith(prefix):
+            prefix = prefix[:-1]
+            if not prefix:
+                return ""
+    return prefix
+
+if __name__ == "__main__":
+    print("Testing longestCommonPrefix function:")
+    print(f"For the input strs = ['flower', 'flow', 'flight'], the output is: \"{longestCommonPrefix(['flower', 'flow', 'flight'])}\"")
+    print(f"For the input strs = ['dog', 'racecar', 'car'], the output is: \"{longestCommonPrefix(['dog', 'racecar', 'car'])}\"") #Output: ''
